@@ -14,13 +14,14 @@ console.log(convertedResult);
 
 // budgetCalculator = watch*50 + phone*100 + laptop*500 = totalCost
 function budgetCalculator(watch, phone, laptop){
+    let total = 0;
     watch = watch* 50;
     phone = phone* 100;
     laptop = laptop* 500;
     total = watch + phone + laptop;
     return total;
 }
-const totalCost = budgetCalculator(10, 10, 10);
+const totalCost = budgetCalculator(8, 17, 19);
 console.log(totalCost);
 
 
@@ -47,7 +48,7 @@ function hotelCost(days){
     }
     return totalCost;
 }
-const totalHotelCost = hotelCost(33);
+const totalHotelCost = hotelCost(55);
 console.log(totalHotelCost);
 
 
